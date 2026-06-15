@@ -80,6 +80,10 @@ fun setup(context: android.content.Context, url: String) {
 
 `packageName` 은 SDK 가 프레임워크(`ActivityThread.currentPackageName()`)에서 직접 읽으며, 전달한 `context.packageName` 은 폴백일 뿐이라 다른 앱 ID 로 위조할 수 없습니다.
 
+### DRM 콘텐츠
+
+DRM(Widevine 등) 보호 콘텐츠는 secure surface 라 GL 처리가 불가해 화질 개선을 적용할 수 없습니다. 대신 SDK 가 암호화 비디오 트랙(`Format.drmInitData`)을 감지하면 이펙트를 떼어 **검정 대신 원본을 그대로 재생**합니다(`VisionState.drmFallback`). 클리어 소스로 바뀌면 자동 재부착됩니다.
+
 ## 예제 앱
 
 소스 선택 · 상태 패널 · 효과 토글 · 프리셋 그리드 · 전체화면 · 다크모드를 포함한 Compose 데모가 SDK 모노레포 `vision-sdk-android/example` 에 있습니다.
