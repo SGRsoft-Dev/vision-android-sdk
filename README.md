@@ -6,7 +6,7 @@
 이 저장소는 컴파일된 **`aar` 만** 호스팅하는 **raw GitHub Maven 저장소**이며 소스는 포함하지 않습니다. **인증 토큰이 필요 없습니다.**
 
 - 좌표: `com.sgrsoft.vision:vision`
-- 최신 버전: **0.1.0**
+- 최신 버전: **0.1.2**
 - 백엔드: OpenGL ES (Media3 `Effect` 파이프라인). CNN 패스는 ES 3.1 compute 지원 시 사용, 미지원 시 자동 생략.
 
 ## 요구 사항
@@ -28,7 +28,7 @@ dependencyResolutionManagement {
 ```kotlin
 // app/build.gradle.kts
 dependencies {
-    implementation("com.sgrsoft.vision:vision:0.1.0")
+    implementation("com.sgrsoft.vision:vision:0.1.2")
 }
 ```
 
