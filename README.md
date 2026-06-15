@@ -58,7 +58,7 @@ fun setup(context: android.content.Context, url: String) {
         player = player,
         options = VisionOptions(enabled = true, profile = VisionProfile.detail),
         context = context,
-        licenseKey = "VSK-XXXXX-XXXXX-XXXXX-XXXXX",   // 선택 — 검증 전까지 원본 패스스루
+        licenseKey = "VSK-XXXXX-XXXXX-XXXXX-XXXXX",   // 선택 — 효과 즉시 적용→2초 후 검증, 실패 시 원본
         onLicense = { state -> /* pending / valid / invalid */ },
     )
 
@@ -76,7 +76,9 @@ fun setup(context: android.content.Context, url: String) {
 
 ### 라이선스
 
-`licenseKey` 를 지정하면 파이프라인이 원본(패스스루)으로 시작하고, 앱의 `packageName` 으로 키가 검증된 후에만 효과를 적용합니다. `INTERNET` 권한이 필요합니다(라이브러리에 이미 선언됨).
+**낙관적 게이팅** — `licenseKey` 를 지정하면 효과가 즉시 적용되고 2초 후 검증되며, 실패 시 효과를 끄고 원본으로 되돌립니다. 검증은 앱의 `packageName` 으로 수행합니다. `INTERNET` 권한이 필요합니다(라이브러리에 이미 선언됨).
+
+`packageName` 은 SDK 가 프레임워크(`ActivityThread.currentPackageName()`)에서 직접 읽으며, 전달한 `context.packageName` 은 폴백일 뿐이라 다른 앱 ID 로 위조할 수 없습니다.
 
 ## 예제 앱
 
