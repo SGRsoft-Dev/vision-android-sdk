@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.sgrsoft.vision",
+    "module": "vision",
+    "version": "0.1.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.media3",
+          "module": "media3-common",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-effect",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-ui",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vision-0.1.5.aar",
+          "url": "vision-0.1.5.aar",
+          "size": 162291,
+          "sha512": "ece6b95443b6a42d3a7e42725fd818549776700b679bb4bcfc543184e7540b6c989f8a1b604d1f5376a8d084e0e35d07a4dbd9f25b85aaa6fcb147f919dd178d",
+          "sha256": "3d906bfe602c4ce1aa5fe8c5063d54541fdf5ffad01c9fc8d7f41d4424900f52",
+          "sha1": "292c91161aa76c5cd510b86126b8933f75de2aaa",
+          "md5": "4fcc3a23e87f3310b590df60ffcf33fb"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.3"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-common",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-effect",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-ui",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vision-0.1.5.aar",
+          "url": "vision-0.1.5.aar",
+          "size": 162291,
+          "sha512": "ece6b95443b6a42d3a7e42725fd818549776700b679bb4bcfc543184e7540b6c989f8a1b604d1f5376a8d084e0e35d07a4dbd9f25b85aaa6fcb147f919dd178d",
+          "sha256": "3d906bfe602c4ce1aa5fe8c5063d54541fdf5ffad01c9fc8d7f41d4424900f52",
+          "sha1": "292c91161aa76c5cd510b86126b8933f75de2aaa",
+          "md5": "4fcc3a23e87f3310b590df60ffcf33fb"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vision-0.1.5-sources.jar",
+          "url": "vision-0.1.5-sources.jar",
+          "size": 18235,
+          "sha512": "3536b4d6b13a714e5b6d06c63cc56ca91aec7698b817fcff0df62ef943d0951eed30d16dc23553bb59f4e61ec653dc2b742e2789056f98c82d08bf8eb5287933",
+          "sha256": "604e132dcbeabb2297a686914fa83060a094154843504b0738dcb047ef502b12",
+          "sha1": "6b91f7268387fe3fbf3fce62653ba8a28aee5757",
+          "md5": "080654561d066dd269295492012eb743"
+        }
+      ]
+    }
+  ]
+}
