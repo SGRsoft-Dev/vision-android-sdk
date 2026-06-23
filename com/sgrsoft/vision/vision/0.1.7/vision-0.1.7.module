@@ -63,11 +63,11 @@
         {
           "name": "vision-0.1.7.aar",
           "url": "vision-0.1.7.aar",
-          "size": 165384,
-          "sha512": "0c4bab438fb2fd411b5007d351457a006f57d42e82b6465bb72d083aafc06ff01c170abc3b702d50d958ba71f486f1382f535789d826162e4e1eb4e2ca9785b1",
-          "sha256": "593eecff648a6a14e98ddb695e7b999ccea07bbcaf73596eeb3b23dfdbdf327c",
-          "sha1": "72fbefea2d2aaf2a77b6ae3da2a8aac42803329b",
-          "md5": "a85e0dc968595ad969ae8f5b515a39aa"
+          "size": 165385,
+          "sha512": "7a1618a46f5903d1a80171b4802240646af28e38fbfd48c4ebd472459e6aaef34dc565aff2f7677f4d2f1e90184e5386e55dc13af784af319ff00438365afbc5",
+          "sha256": "0f25fe6c3a26084bdf167fea3c1baec12f6f28740305152f7a381ba4178f69f2",
+          "sha1": "0f1b23b43c3ff8d66be180edf16a9a1c6b4dbded",
+          "md5": "1f762072faf18624b912ceaab23a3504"
         }
       ]
     },
@@ -127,11 +127,11 @@
         {
           "name": "vision-0.1.7.aar",
           "url": "vision-0.1.7.aar",
-          "size": 165384,
-          "sha512": "0c4bab438fb2fd411b5007d351457a006f57d42e82b6465bb72d083aafc06ff01c170abc3b702d50d958ba71f486f1382f535789d826162e4e1eb4e2ca9785b1",
-          "sha256": "593eecff648a6a14e98ddb695e7b999ccea07bbcaf73596eeb3b23dfdbdf327c",
-          "sha1": "72fbefea2d2aaf2a77b6ae3da2a8aac42803329b",
-          "md5": "a85e0dc968595ad969ae8f5b515a39aa"
+          "size": 165385,
+          "sha512": "7a1618a46f5903d1a80171b4802240646af28e38fbfd48c4ebd472459e6aaef34dc565aff2f7677f4d2f1e90184e5386e55dc13af784af319ff00438365afbc5",
+          "sha256": "0f25fe6c3a26084bdf167fea3c1baec12f6f28740305152f7a381ba4178f69f2",
+          "sha1": "0f1b23b43c3ff8d66be180edf16a9a1c6b4dbded",
+          "md5": "1f762072faf18624b912ceaab23a3504"
         }
       ]
     },
@@ -148,10 +148,10 @@
           "name": "vision-0.1.7-sources.jar",
           "url": "vision-0.1.7-sources.jar",
           "size": 18213,
-          "sha512": "93c530e38d0165a27a6acd167e43fad49add953aa69024060725e8f3105c01134d35941fbf4d13ba81f4b4a60ceedbe074b875dc9474ba63516bd40917b233f4",
-          "sha256": "74103d9f3f40e8acd4439a310dd9914c37d8616cc5ebff1879eadd517bc7f3dd",
-          "sha1": "953ff551d89196884a86fe980e03e3bd88f1b71c",
-          "md5": "976b253e3d2b9247d99665f77dfea848"
+          "sha512": "6e8b9c3cb6cc42f440cb380b3c3089f776840ff0e80cd233055707c00c6189afe5834155e4d48211f08f573398a955a69dc1a169d33ae701833db52b2baf7c03",
+          "sha256": "b7e575b4724dc30f860ec530da9daa910257e782ceaf04d5aa46029986e922ae",
+          "sha1": "48375d1af26741a72175d8047834e5034e25ced6",
+          "md5": "e6ba3cce4516c20149c49fbf34bcbbe0"
         }
       ]
     }
