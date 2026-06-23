@@ -28,7 +28,7 @@ dependencyResolutionManagement {
 ```kotlin
 // app/build.gradle.kts
 dependencies {
-    implementation("com.sgrsoft.vision:vision:0.1.6")
+    implementation("com.sgrsoft.vision:vision:0.1.7")
 }
 ```
 
